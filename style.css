@@ -1,0 +1,32 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  height: 100vh;
+  width: 100vw;
+}
+
+body{
+  background: url(imagens/imagens/fundo-madeira.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main{
+  height: 100vh;
+  position: relative;
+}
+
+div#iphone{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 627px;
+  width: 311px;
+  background: url(imagens/imagens/frame-iphone.png) no-repeat;
+}
